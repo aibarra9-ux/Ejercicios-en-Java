@@ -6,10 +6,10 @@ public class Adivina_la_palabra {
         
 
         Scanner scanner = new Scanner(System.in);
-        Random random = new Random();
+        Random random = new Random(); 
 
         ArrayList<String> lista_palabras = new ArrayList<>(
-            java.util.List.of("carta", "casa", "java", "creador")
+            java.util.List.of("carta", "casas", "noche", "creador")
         );
 
         int indice = random.nextInt(lista_palabras.size());
